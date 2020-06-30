@@ -1,0 +1,120 @@
+
+@import "_variables.scss";
+@media (max-width: 767.9px){
+    @import "_mobile.scss";
+}
+@media (min-width: 768px){
+    @import "_desktop.scss";
+}
+
+html{
+    body{
+        header {
+            nav {
+                ul {
+                    li {
+                        a{
+                            font-family: $font1;
+                            color: $color1;
+                            letter-spacing: 0;
+                            line-height: 28px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+        .intro {
+            h1 {
+                font-family: $font2, sans-serif;
+                color: $color1;
+                letter-spacing: 0;
+                .world {
+                    text-decoration: line-through;
+                }
+                .dot {
+                    font-family: $font2, sans-serif;
+                    color: $color2;
+                    letter-spacing: 0;
+                }
+            }
+            p {
+                font-family: $font1, sans-serif;
+                color: $color1;
+                letter-spacing: 0;
+                line-height: 24px;
+            }
+        }
+        .fondo1 {
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+            .episodios {
+                margin: 0 auto;
+                h2 {
+                    font-family: $font2;
+                    color: #FFFFFF;
+                    letter-spacing: 0;
+                }
+            }
+        }
+        .where{
+            h2 {
+                font-family: $font2, sans-serif;
+                color: $color1;
+                letter-spacing: 0;
+            }
+            p {
+                font-family: $font1, sans-serif;
+                font-size: 16px;
+                color: $color1;
+                letter-spacing: 0;
+                line-height: 24px;
+            }
+        }
+        .invitados {
+            h2 {
+                font-family: $font2, sans-serif;
+                color: $color1;
+                letter-spacing: 0;
+            }
+        }
+        .temas{
+            h2 {
+                font-family: $font2, sans-serif;
+                color: $color1;
+                letter-spacing: 0;
+            }
+            div {
+                div {
+                    h4 {
+                        font-family: $font2, sans-serif;
+                        font-weight: 600;
+                        color: $color1;
+                        letter-spacing: 0;
+                    }
+                }
+            }
+        }
+        .fondo2 {
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+            h2 {
+                font-family: $font2;
+                color: #FFFFFF;
+                letter-spacing: 0;
+                text-align: center;
+            }
+        }
+        footer {
+            span {
+                font-family: $font1;
+                color: $color1;
+                letter-spacing: 0;
+            }
+            .icons {
+                i {
+                    color: $color1;
+                    letter-spacing: 0;
+                }
+            }
+        }
+    }
+}
